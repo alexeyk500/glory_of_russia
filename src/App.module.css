@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+}
+
+.flagContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.stripWhite {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: white;
+}
+
+.stripBlue {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: blue;
+}
+
+.stripRed {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: red;
+}
+
+.titleContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 8vw;
+    color: gold;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
