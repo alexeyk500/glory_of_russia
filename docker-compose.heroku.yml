@@ -1,9 +1,0 @@
-version: "3.5"
-services:
-  client:
-    build:
-      dockerfile: Dockerfile.heroku
-    image: client_glory_of_russia
-    restart: always
-#    ports:
-#      - "80:80"
