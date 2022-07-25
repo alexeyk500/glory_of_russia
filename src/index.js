@@ -5,7 +5,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-console.log('Glory of Russia App - version 0.0.30');
+console.log('Glory of Russia App - version 0.0.35');
 
 root.render(
   <React.StrictMode>
