@@ -4,5 +4,5 @@ services:
     build: .
     image: client_glory_of_russia_18
     restart: always
-#    ports:
-#      - "80:80"
+    ports: #comment ports for Heroku
+      - "80:80"
